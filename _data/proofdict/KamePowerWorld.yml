@@ -1,0 +1,15 @@
+id: 01G1GB0HEZMN70J4XC41MARC1P
+description: World
+expected: KamePowerWorld
+patterns:
+  - /Kame Power World/i
+  - /KamePowerWorld/i
+allows: []
+specs:
+  - from: kame power world
+    to: KamePowerWorld
+  - from: KamePowerWorld
+    to: KamePowerWorld
+  - from: kamepowerworld
+    to: KamePowerWorld
+tags: []
