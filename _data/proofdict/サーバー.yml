@@ -1,0 +1,21 @@
+id: 01G1GBKA8KEQK70NWNY4NH13F8
+description: サーバー
+expected: サーバー
+patterns:
+  - /鯖/i
+  - /(sa|さ|サ|ｻ)(-+|ー+|)(ba|ば|バ|ﾊﾞ)(-+|ー+|)/i
+allows: []
+specs:
+  - from: 鯖
+    to: サーバー
+  - from: sa-ba-
+    to: サーバー
+  - from: sa-ba-
+    to: サーバー
+  - from: sa------ba--------
+    to: サーバー
+  - from: さーばー
+    to: サーバー
+  - from: サバーー
+    to: サーバー
+tags: []
