@@ -1,0 +1,10 @@
+id: 01G1GCVKJRWNWXMKR4H70Q1C1S
+description: ''
+expected: Kamesuta
+patterns:
+  - /kamesuta/i
+allows: []
+specs:
+  - from: kamesuta
+    to: Kamesuta
+tags: []
