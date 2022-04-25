@@ -1,0 +1,12 @@
+id: 01G1GC93YPA86BFDMB9Z69BW3E
+description: ''
+expected: かめぱわぁ～るど
+patterns:
+  - /かめぱわ(あ|ぁ|)(～|ー|-|)るど/i
+allows: []
+specs:
+  - from: かめぱわぁるど
+    to: かめぱわぁ～るど
+  - from: かめぱわるど
+    to: かめぱわぁ～るど
+tags: []
