@@ -1,0 +1,14 @@
+id: 01G1JYB9J64Q0YSJPWK896NMC9
+description: ''
+expected: Webサイト
+patterns:
+  - /(ウェブサイト|うぇぶさいと|ｳｪﾌﾞｻｲﾄ)/i
+allows: []
+specs:
+  - from: ウェブサイト
+    to: Webサイト
+  - from: うぇぶさいと
+    to: Webサイト
+  - from: ｳｪﾌﾞｻｲﾄ
+    to: Webサイト
+tags: []
